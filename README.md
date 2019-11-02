@@ -43,7 +43,7 @@ This project has 7 total files of code:
 * style.css - css code for styling that is consistent across all three pages.
 * style_about-me.css - css code specific to about-me page. Did not use on this assignment.
 * style_contact.css - css code specific to contact page.  Did not use on this assignment.
-* style_portfolio.css - css code specific to portfolio page. Did not use on this assignment.
+* style_portfolio.css - css code specific to portfolio page.
 * assets folder - contains all my images used.
 
 ## Specific Changes Made
