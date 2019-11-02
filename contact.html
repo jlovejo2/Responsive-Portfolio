@@ -9,13 +9,11 @@
     <!--link to boostrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" text="text/css" href="css/style.css">
+    <link rel="stylesheet" text="text/css" href="css/contact.css">
 </head>
 <body>
- <!--Start Header-->  
-    <!--Code for aligning an element in header with navbar---<div class="header d-flex justify-content-between">
-        <div style="background-color:rgba(0,48,100,.4);" class="" id="name">
-            <h3>James Lovejoy</h3>
-          </div>-->
+ <!--Start Header:  Start with a boostrap Navbar however attempted to customize it with a background image and adding my name as an element inside the Navbar.
+  This was done intentionally to try to reproduce a similar website to my first homework but more responsive.  I was not able to get my dropdown menu to work-->  
           <nav class="cloud-background navbar navbar-expand navbar-light">
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="row navbar-nav">
@@ -29,29 +27,32 @@
                 <li class="nav-item p-2">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item dropdown p-2">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Links to more goodies
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Linkedin Profile</a>
-                    <a class="dropdown-item" href="#">Resume</a>
-                    <a class="dropdown-item" href="#">Some photos if you get bored</a>
+                <li class="nav-item dropdown-menu-right p-2">
+                  <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled>
+                      More Goodies - Coming Soon
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <button class="dropdown-item" type="button">Action</button>
+                      <button class="dropdown-item" type="button">Another action</button>
+                      <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
                   </div>
                 </li>
               </ul>
             </div>
           </nav>
-      <!--Finish Header-->
-    <!--Start Content-->
-    <div class="content container-fluid min-vh-100 p-5">
+    <!--Finish Header-->
+    <!--Start Content:  In the content I used as much bootstrap class commands as found.  I had issues getting width classes in bootstrap to work so I specified
+    most widths in a css.-->
+    <div class="container-fluid min-vh-100 p-5">
       <div class="row">
-        <div class="col-md-4 col-sm-2"></div>
-        <div class= "content col-md-4 col-sm-8 p-6">
-          <div class="row font-weight-bold">
+        <div class="col-lg-4 col-md-3 col-sm-2"></div>
+        <div class= "content col-lg-4 col-md-6 col-sm-8">
+          <div class="row font-weight-bold p-2">
             <h3>Contact</h3>
           </div>
-          <div class="row align-items-center">
+          <div class="row align-items-center p-2">
             <form>
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Full Name</label>
@@ -65,12 +66,12 @@
                   <label for="exampleFormControlTextarea1">Please let me know why you are trying to get ahold of me</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Write your message here."></textarea>
                 </div>
-                <button type="button" class="btn btn-primary btn-lg">Click this button to submit if you'd take the blue pill</button>
-                <button type="button" class="btn btn-secondary btn-lg">Click this button to submit if you'd take the red pill</button>
+                <button type="button" class="btn btn-primary btn-md ml-4">Click this button to submit if you'd take the blue pill</button>
+                <button type="button" class="btn btn-secondary btn-md ml-4">Click this button to submit if you'd take the red pill</button>
               </form> 
           </div>
         </div>
-        <div class="col-md-4 col-sm-2"></div>
+        <div class="col-lg-4 col-md-3 col-sm-2"></div>
       </div>
     </div>
     <!--Finish Content-->

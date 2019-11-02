@@ -9,15 +9,11 @@
     <!--link to boostrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" text="text/css" href="css/style.css">
-    <link rel="stylesheet" text="text/css" href="css/responsive.css">
+    <link rel="stylesheet" text="text/css" href="css/portfolio.css">
+
 </head>
 <body>
  <!--Start Header-->  
- <!--<div class="header min-h-10">-->
-    <!--Code for aligning a separate element in header with navbar---<div class="header d-flex justify-content-between">
-        <div style="background-color:rgba(0,48,100,.4);" class="" id="name">
-            <h3>James Lovejoy</h3>
-          </div>-->
           <nav class="cloud-background navbar navbar-expand navbar-light">
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="row navbar-nav">
@@ -32,13 +28,15 @@
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item dropdown p-2">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Links to more goodies
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Linkedin Profile</a>
-                    <a class="dropdown-item" href="#">Resume</a>
-                    <a class="dropdown-item" href="#">Some photos if you get bored</a>
+                  <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled>
+                      More Goodies - Coming soon
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <button class="dropdown-item" type="button">Action</button>
+                      <button class="dropdown-item" type="button">Another action</button>
+                      <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
                   </div>
                 </li>
               </ul>
@@ -46,7 +44,8 @@
           </nav>
       <!-- </div> -->
   <!--Finish Header-->
-  <!--Start Content-->
+  <!--Start Content  I used a grid layout of 4 total rows for inside my content element.  I had difficulty getting my images and portfolio-links to line
+  so I used a decent amount of external css for this.-->
   <div class="container-fluid min-vh-100 p-4">
     <div class="row">
       <div class= "col-lg-1"></div>

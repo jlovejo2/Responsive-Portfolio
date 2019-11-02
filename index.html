@@ -9,13 +9,10 @@
     <!--link to boostrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" text="text/css" href="css/style.css">
+    <link rel="stylesheet" text="text/css" href="css/about-me.css">
 </head>
 <body>
   <!--Start Header-->  
-  <!--Code for aligning an element in header with navbar---<div class="header d-flex justify-content-between">
-      <div style="background-color:rgba(0,48,100,.4);" class="" id="name">
-          <h3>James Lovejoy</h3>
-        </div>-->
         <nav class="cloud-background navbar navbar-expand navbar-light">
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="row navbar-nav">
@@ -30,13 +27,15 @@
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
               <li class="nav-item dropdown p-2">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Links to more goodies
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Linkedin Profile</a>
-                  <a class="dropdown-item" href="#">Resume</a>
-                  <a class="dropdown-item" href="#">Some photos if you get bored</a>
+                <div class="dropdown">
+                  <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled>
+                    More Goodies - Coming Soon
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">Action</button>
+                    <button class="dropdown-item" type="button">Another action</button>
+                    <button class="dropdown-item" type="button">Something else here</button>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -47,7 +46,7 @@
 <div class="container-fluid min-vh-100 p-5">
     <div class="row">  
       <div class= "col-md-2"></div>
-      <div class="About-me col-xs-12 col-s-12 col-md-8 col-lg-8 col-xl-8">
+      <div class="content col-xs-12 col-s-12 col-md-8 col-lg-8 col-xl-8">
           <div class="row font-weight-bold p-1">
             <h3>About Me</h3>
           </div>
