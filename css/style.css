@@ -1,0 +1,105 @@
+
+html body {
+    height: 100%;
+}
+
+.container-fluid {
+    min-height: 100%;
+    background-image: url(../assets/images/IMG_9209.JPG);
+    background-size: cover;
+}
+
+.About-me {
+    background-color: rgba(16, 163, 23, 0.685);
+}
+
+.cloud-background {  
+    background: url(../assets/images/beautiful-cloud-background.jpg) !important;
+    background-size: cover !important;
+    border-bottom: 5px solid rgba(0,0,0,.685);
+}
+
+#me {
+    width: 200px;
+    float: left;
+    padding: 5px;
+}
+
+#name h3{
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.menu {
+    background-color: purple !important;
+    
+}
+
+.footer {
+    background-color:gray;
+    border-top: 5px solid teal;
+}
+
+h3 {
+    border-bottom: 3px solid rgba(0,0,0, .75);
+    width: 100%;
+}
+
+a:hover {
+    background-color: rgba(255,255,0,.5);
+    color: black;
+    font-weight: bold;
+}
+
+.content {
+    background-color: rgba(16, 163, 23, 0.68);
+    border: 3px solid black;
+    height: 100%;
+}
+
+.portfolio-link {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    text-align: center;
+    border: 3px solid black;
+    background-color: rgba(0,128,128,.5);
+    color: white;
+    width: 90%;
+}
+
+.img-responsive {
+    position: relative;
+    left: 10px;
+    width: 100%;
+    border: 2px solid teal;
+}
+
+  /* .nav-item {
+    border-right: rgba(0,0,0, .75);
+}
+
+p {
+    float: right;
+}*/
+
+/*body {
+    background-image: url(../assets/images/IMG_9209.JPG);
+}
+.content {
+    height: 70vh;
+    background-color: white;
+    border: 2px solid black;
+    top: 5%;
+    left: 30%;
+}
+
+.background { 
+    height: 100vh;
+    background-color: gray;
+}*/
