@@ -52,3 +52,13 @@ a:hover {
     border: 3px solid black;
     height: 100%;
 }
+
+.carousel-inner {
+    height: 50vh;
+    width: 70vw;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
