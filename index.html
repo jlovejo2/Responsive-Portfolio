@@ -32,16 +32,18 @@
         <li class="nav-item p-2">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
-        <div class="dropdown p-2">
-          <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown">
-            More Goodies - Coming Soon
-          </button>
-          <ul class="dropdown-menu">
-            <li class="divider dropdown-item"><a href="#">Linkedin</a></li>
-            <li class="divider dropdown-item"><a href="#">Resume</a></li>
-            <li class="divider dropdown-item"><a href="#">Facebook</a></li>
-          </ul>
-        </div>
+        <li class="nav-item dropdown p-2">
+          <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown">
+              More Goodies - Coming Soon
+            </button>
+            <ul class="dropdown-menu">
+              <li class="divider dropdown-item"><a href="#">Linkedin</a></li>
+              <li class="divider dropdown-item"><a href="#">Resume</a></li>
+              <li class="divider dropdown-item"><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+        </li>
       </ul>
     </div>
   </nav>
@@ -80,7 +82,28 @@
       </div>
       <div class="col-md-2"></div>
     </div>
-    <div class="row justify-content-center" id="carouselRow">
+    <div id="carouselRow" class="row justify-content-center">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div id="carouselInner" class="carousel-inner m-3"></div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
     </div>
   </div>
   <!--Finish Content-->
@@ -89,8 +112,7 @@
     <p>Copright&copy;</p>
   </div>
   <!--Finish Footer-->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
   <script src="javascript/functions.js"></script>
   <script src="javascript/javascript-index.js"></script>
 </body>
