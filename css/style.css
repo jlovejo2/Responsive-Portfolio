@@ -16,12 +16,6 @@ html body {
     border-bottom: 5px solid rgba(0,0,0,.685);
 }
 
-#me {
-    width: 200px;
-    float: left;
-    padding: 5px;
-}
-
 #name h3{
     color: white;
     padding: 10px;
@@ -53,12 +47,14 @@ a:hover {
     height: 100%;
 }
 
-.carousel-inner {
-    height: 50vh;
-    width: 70vw;
-}
-
-img {
-    width: 100%;
+.img {
+    /* width: 100%; */
     margin: auto;
 }
+
+/* .nav-item {
+    /* background-color: rgba(255,255,255,.3) !important; */
+    /* border-bottom: rgba(0,0,0,.75) !important; */
+    /* border-radius: 15px; */
+} */
+

@@ -7,6 +7,8 @@ init()
 
 createCarousel($("#carouselRow"),imgSRCLink, 5);
 
+$("#carouselRow").addClass("animated bounceInDown delay-1s");
+
 });
 
 

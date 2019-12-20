@@ -1,18 +1,11 @@
 
 function init() {
 
-    $(".content").addClass("animated fadeInRight");
-
-    //code to be used if I want to delay the animation
-    // setTimeout(() => {
-
-    //     $(".content").addClass("animated fadeInRight");
-
-    // }, 1000 * 2);
+    $(".content").addClass("animated fadeInRight delay-1s");
 
     $(".nav-link").hover(function(){
     
-        $(this).toggleClass("animated bounce")
+        $(this).toggleClass("animated headShake")
     
     })
 
@@ -24,7 +17,7 @@ function createCarousel(mainDiv, imgSRC, numOfImg) {
     var carouselInnerDiv = $("#carouselInner")
 
     for (i = 1; i <= numOfImg; i++) {
-
+                
         var imgLink = imgSRC + "img_000" + i + ".jpg";
         var img = $("<img>").attr({ "class": "img-fluid rounded", "src": imgLink, "alt": "Photo" });
 
